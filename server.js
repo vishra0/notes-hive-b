@@ -12,7 +12,7 @@ const app = express();
 // Middleware: CORS setup
 const allowedOrigins = [
   'http://localhost:3000', // Dev
-  'https://your-frontend.vercel.app' // Prod - Replace this with your actual Vercel domain
+  'https://notes-hive-f.vercel.app' // Prod - Replace this with your actual Vercel domain
 ];
 
 app.use(cors({
